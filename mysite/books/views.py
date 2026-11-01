@@ -1,10 +1,6 @@
-"""
-Name: Rachel White
-Class: Python Programming
-Project: Mini Project 6 - Django Reading List
-
-Views for the books app.
-"""
+# INF601 - Advanced Programming in Python
+# Your Name
+# Mini Project 6
 
 from django.contrib import messages
 from django.contrib.auth import login

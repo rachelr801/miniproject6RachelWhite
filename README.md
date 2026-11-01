@@ -135,7 +135,7 @@ python manage.py runserver
 
 Then open <http://127.0.0.1:8000/> in your browser. Register a new account (or log in with your superuser) and start adding books. Press `Ctrl+C` in the terminal to stop the server.
 
-`ALLOWED_HOSTS` in `mysite/settings.py` includes `localhost`, `127.0.0.1`, and the class dev server `dev-student20.fhsucyber.com`.
+`ALLOWED_HOSTS` and `CSRF_TRUSTED_ORIGINS` in `mysite/settings.py` are set for the class dev server `dev-student20.fhsucyber.com`. To run the site on your own computer instead, add `"localhost"` and `"127.0.0.1"` to `ALLOWED_HOSTS`.
 
 ## Running the Tests
 

@@ -1,10 +1,6 @@
-"""
-Name: Rachel White
-Class: Python Programming
-Project: Mini Project 6 - Django Reading List
-
-Tests for the books app. Run with: python manage.py test
-"""
+# INF601 - Advanced Programming in Python
+# Your Name
+# Mini Project 6
 
 from django.contrib.auth.models import User
 from django.test import TestCase

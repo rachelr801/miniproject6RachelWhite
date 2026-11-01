@@ -1,10 +1,6 @@
-"""
-Name: Rachel White
-Class: Python Programming
-Project: Mini Project 6 - Django Reading List
-
-Forms for adding books and registering new users.
-"""
+# INF601 - Advanced Programming in Python
+# Your Name
+# Mini Project 6
 
 from django import forms
 from django.contrib.auth.forms import UserCreationForm

@@ -1,11 +1,6 @@
-"""
-Name: Rachel White
-Class: Python Programming
-Project: Mini Project 6 - Django Reading List
-
-Root URL configuration. Sends app URLs to mysite.books.urls and uses Django's
-built-in auth views for login and logout.
-"""
+# INF601 - Advanced Programming in Python
+# Your Name
+# Mini Project 6
 
 from django.contrib import admin
 from django.contrib.auth import views as auth_views
