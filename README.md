@@ -39,27 +39,28 @@ miniproject6RachelWhite/
 ├── manage.py
 ├── requirements.txt
 ├── README.md
-├── mysite/                  # Project settings and root URLs
+├── mysite/                      # Project package
 │   ├── settings.py
-│   ├── urls.py
+│   ├── urls.py                  # Root URLs (admin, login, logout, app)
 │   ├── asgi.py
-│   └── wsgi.py
-├── books/                   # The app
-│   ├── admin.py             # Admin customization
-│   ├── forms.py             # BookForm and RegisterForm
-│   ├── models.py            # Genre and Book models
-│   ├── tests.py             # Automated tests
-│   ├── urls.py              # App URL routes
-│   ├── views.py             # Page views
-│   ├── migrations/
-│   └── templates/books/     # App page templates
-│       ├── home.html
-│       ├── about.html
-│       ├── book_list.html
-│       ├── book_detail.html
-│       └── book_form.html
-└── templates/               # Project-wide templates
-    ├── base.html            # Bootstrap layout every page extends
+│   ├── wsgi.py
+│   └── books/                   # The app (inside the mysite package)
+│       ├── admin.py             # Admin customization
+│       ├── apps.py              # App config (name = "mysite.books")
+│       ├── forms.py             # BookForm and RegisterForm
+│       ├── models.py            # Genre and Book models
+│       ├── tests.py             # Automated tests
+│       ├── urls.py              # App URL routes
+│       ├── views.py             # Page views
+│       ├── migrations/
+│       └── templates/books/     # App page templates
+│           ├── home.html
+│           ├── about.html
+│           ├── book_list.html
+│           ├── book_detail.html
+│           └── book_form.html
+└── templates/                   # Project-wide templates
+    ├── base.html                # Bootstrap layout every page extends
     └── registration/
         ├── login.html
         └── register.html
