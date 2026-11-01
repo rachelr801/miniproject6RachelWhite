@@ -1,5 +1,5 @@
 # INF601 - Advanced Programming in Python
-# Your Name
+# Rachel White
 # Mini Project 6
 
 from django.contrib import messages

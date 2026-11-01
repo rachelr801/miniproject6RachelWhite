@@ -1,5 +1,9 @@
+# INF601 - Advanced Programming in Python
+# Rachel White
+# Mini Project 6
+
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
+
 import os
 import sys
 

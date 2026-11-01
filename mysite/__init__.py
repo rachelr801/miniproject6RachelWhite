@@ -1,3 +1,3 @@
 # INF601 - Advanced Programming in Python
-# Your Name
+# Rachel WHite
 # Mini Project 6
