@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}About{% endblock %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <div class="col-lg-8">
+        <h1>About this project</h1>
+        <p class="lead">Reading List is a small Django web app built for Mini Project 6.</p>
+        <p>Each user has their own private list of books. Books are grouped by genre and move through three
+            statuses: <em>Want to Read</em>, <em>Currently Reading</em>, and <em>Finished</em>.</p>
+        <h4 class="mt-4">Built with</h4>
+        <ul>
+            <li>Python and Django</li>
+            <li>SQLite for the database</li>
+            <li>Bootstrap 5 for layout, cards, and modals</li>
+            <li>Django's built-in authentication for registration and login</li>
+        </ul>
+        <p>Genres are managed by staff through the Django admin site.</p>
+    </div>
+</div>
+{% endblock %}
