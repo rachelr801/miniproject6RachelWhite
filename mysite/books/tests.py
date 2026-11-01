@@ -43,7 +43,7 @@ class BookTests(TestCase):
     def setUp(self):
         self.user = User.objects.create_user("reader", password="Sup3rS3cretPass!")
         self.other = User.objects.create_user("other", password="Sup3rS3cretPass!")
-        self.genre = Genre.objects.create(name="Fantasy")
+        self.genre = Genre.objects.get(name="Fantasy")  # added by the 0002_seed_genres migration
         self.client.login(username="reader", password="Sup3rS3cretPass!")
 
     def test_create_edit_delete_book(self):

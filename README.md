@@ -125,7 +125,7 @@ The project uses SQLite, so there is no database server to set up. The `db.sqlit
 
    Follow the prompts for a username, email, and password.
 
-4. Log in at `/admin/` and add a few **Genres** (for example Fantasy, Mystery, Science Fiction, Nonfiction). These show up in the genre drop-down on the Add Book form.
+4. `migrate` also adds a starter set of **Genres** (Biography, Fantasy, Historical Fiction, Horror, Mystery, Nonfiction, Romance, Science Fiction, Thriller, Young Adult), so the genre drop-down on the Add Book form is ready to use. To add, rename, or remove genres, log in at `/admin/` and open **Genres**.
 
 ## Running the Development Server
 
