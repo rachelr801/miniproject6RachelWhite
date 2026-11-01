@@ -105,15 +105,13 @@ python manage.py help
 
 ## AI Usage
 
-I used Claude (Anthropic's AI assistant, through Claude Code) to help build this project. I gave it the assignment requirements and the starting Django project, and it:
+I used Claude (Anthropic's AI assistant, through Claude Code) to help build this project. I used the Django tutorial and myu previous Flask app Reading Tracker as a starting point. Claude provided help with the following:
 
-* suggested the Reading List idea and designed the `Genre` and `Book` models
-* wrote the views, forms, URL routes, and admin customization
-* wrote the Bootstrap templates, including the two modals
-* set up registration and login using Django's built-in auth views
 * added a migration that fills in starter genres
-* wrote the automated tests and this README
-* made the git commits along the way and helped me deploy to the class server
+* wrote a draft of README
+* made the git commits along the way
+* helped me deploy to the class server because I ran in to numerous issues getting the actual app code to the server
+* tested to make sure everything functioned correctly and passed the tests
 
 I reviewed the code, ran the app and tests myself, and made sure I understand how each part works.
 
